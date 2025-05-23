@@ -61,7 +61,7 @@ def main():
         elif request=="tree":
             system.show_tree()
         elif request=="append" and len(parts)==2:
-            print("enter the text end with EOF")
+            print("enter the text ends with EOF")
             lines=[]
             while True:
                 line=input()
